@@ -1,6 +1,6 @@
-package com.example.jaal.myExercises;
+package com.example.jaal.m2.s02;
 
-public class BubbleSort {
+public class MyBubbleSort {
 	public static int[] iterative(int[] array) {
 		for (int i = 0; i < array.length; i++) {
 			boolean costan = false;
