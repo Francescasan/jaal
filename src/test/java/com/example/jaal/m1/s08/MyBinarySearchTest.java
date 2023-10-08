@@ -9,7 +9,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 class MyBinarySearchTest {
-	private final int[] values = { -55, -44, -21, -8, 0, 12, 27, 51, 93, 115, 220 };
+	private final int[] values = { -700, -44, -21, -8, 0, 12, 27, 51, 93, 115, 220 };
 
 	@ParameterizedTest
 	@CsvSource({ "12, 5", "93, 8", "115, 9" })
